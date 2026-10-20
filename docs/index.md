@@ -9,6 +9,10 @@ hide:
 
 # 何嘉琪
 
+**🧠 Agent + Memory = Assistant**
+
+*Stimulating the potential of memory to build true AI assistants.*
+
 我做的一件事：**给 agent 装上记得住、想得起、说得清的记忆**。
 
 它们的总称是 [Palimpsest](https://github.com/JiaY-77/Palimpsest)——一个本地优先的开源 AI 长期记忆系统，
