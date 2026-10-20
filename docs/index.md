@@ -9,9 +9,8 @@ hide:
 
 # 何嘉琪
 
-**🧠 Agent + Memory = Assistant**
-
-*Stimulating the potential of memory to build true AI assistants.*
+<p class="tagline">🧠 Agent + Memory = Assistant</p>
+<p class="tagline-en">Stimulating the potential of memory to build true AI assistants.</p>
 
 我做的一件事：**给 agent 装上记得住、想得起、说得清的记忆**。
 

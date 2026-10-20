@@ -71,3 +71,19 @@
 .md-typeset table:not([class]) {
   font-size: 0.78rem;
 }
+
+/* 站点标语 */
+.hero .tagline {
+  font-size: 1.32rem;
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+  letter-spacing: -0.01em;
+  margin: 0.1rem 0 0.15rem;
+}
+
+.hero .tagline-en {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--md-default-fg-color--light);
+  margin: 0 0 0.9rem;
+}

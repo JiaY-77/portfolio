@@ -1,10 +1,10 @@
 # 何嘉琪 · 个人站
 
+> 🧠 **Agent + Memory = Assistant**
+> *Stimulating the potential of memory to build true AI assistants.*
+
 > **在线阅读：<https://jiay-77.github.io/portfolio/>**
 > 这里不是作品清单，是一个关于「记忆」的长期项目现场：我在想什么、做了什么、怎么验证。
-
-# 🧠 Agent + Memory = Assistant
-> *Stimulating the potential of memory to build true AI assistants.*
 
 ## 这个站点有什么
 
