@@ -1,0 +1,112 @@
+site_name: 何嘉琪
+site_description: AI 应用工程师 · 记忆系统的研究与工程实践
+site_author: 何嘉琪
+site_url: https://jiay-77.github.io/portfolio/
+repo_url: https://github.com/JiaY-77/portfolio
+repo_name: JiaY-77/portfolio
+edit_uri: edit/main/docs/
+copyright: 何嘉琪 · 记忆不是存储，是连续性
+
+theme:
+  name: material
+  language: zh
+  icon:
+    logo: material/brain
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: 切到深色
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/white-balance-sunny
+        name: 切到浅色
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+
+extra_css:
+  - assets/extra.css
+
+nav:
+  - 首页: index.md
+  - 思考:
+      - 全部思考: writing/index.md
+      - "agent + memory = assistant": writing/agent-memory-assistant.md
+      - 记忆与涌现: writing/memory-and-emergence.md
+      - 本地优先的记忆持久化: writing/local-first-memory.md
+  - 作品:
+      - 作品总览: work/index.md
+      - Palimpsest 设计说明: work/palimpsest-design.md
+      - 记忆系统的设计与取舍: work/memory-tradeoffs.md
+      - 大模型 API 真伪鉴别: work/api-authenticity.md
+      - 依赖升级验证与上游贡献: work/dependency-upgrade.md
+      - 真实业务数据交付（30 分钟）: work/data-delivery-30min.md
+  - 调研:
+      - 调研总览: research/index.md
+      - 主流 Agent 的记忆机制: research/agent-memory-survey.md
+      - 记忆工具对比（Mem0/Letta/Cognee/Zep）: research/memory-tools-comparison.md
+      - 宿主接入 01 · MCP 原生宿主: research/host-01-mcp.md
+      - 宿主接入 02 · Agent 框架记忆抽象: research/host-02-agent-frameworks.md
+      - 宿主接入 03 · 自托管对话 UI: research/host-03-selfhosted-ui.md
+      - 宿主接入 04 · Dify 与国内插件市场: research/host-04-dify-plugins.md
+      - 宿主接入 05 · 竞品宣传与撞词: research/host-05-competitor-wording.md
+      - AI 办公工具调研: research/ai-office-tools.md
+  - 经历:
+      - 经历总览: experience/index.md
+      - 汉兴联 · ITBP: experience/hanlink-itbp.md
+      - 又拍云 · 产品售前: experience/upyun-presales.md
+  - 关于: about.md
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - def_list
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.snippets
+  - pymdownx.mark
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/JiaY-77
+      name: GitHub

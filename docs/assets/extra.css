@@ -1,0 +1,73 @@
+/* 中文字体栈：优先系统字体，避免 Google Fonts 在国内加载慢 */
+:root {
+  --md-text-font: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", system-ui, sans-serif;
+  --md-code-font: "Cascadia Code", "JetBrains Mono", Consolas, "Courier New", monospace;
+}
+
+/* 首页 hero */
+.hero {
+  padding: 2.2rem 0 1.2rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  margin-bottom: 1.6rem;
+}
+
+.hero h1 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin: 0 0 0.6rem;
+  letter-spacing: -0.01em;
+}
+
+.hero p {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--md-default-fg-color--light);
+  max-width: 42rem;
+  margin: 0.4rem 0;
+}
+
+.hero .md-button {
+  margin-top: 1rem;
+  margin-right: 0.4rem;
+}
+
+/* 主张卡片 */
+.hypothesis {
+  border-left: 3px solid var(--md-primary-fg-color);
+  padding: 0.1rem 0 0.1rem 1rem;
+  margin: 1.4rem 0;
+}
+
+.hypothesis h3 {
+  margin: 0.2rem 0 0.4rem;
+  font-size: 1rem;
+}
+
+.hypothesis p {
+  margin: 0.3rem 0;
+  color: var(--md-default-fg-color--light);
+  line-height: 1.7;
+}
+
+/* 文章头部信息条 */
+.post-meta {
+  font-size: 0.78rem;
+  color: var(--md-default-fg-color--light);
+  margin: -0.4rem 0 1.4rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* 正文行距略放宽，长文更好读 */
+.md-typeset {
+  line-height: 1.75;
+}
+
+.md-typeset h2 {
+  margin-top: 2rem;
+}
+
+/* 表格字号收一点，避免宽表撑破 */
+.md-typeset table:not([class]) {
+  font-size: 0.78rem;
+}
