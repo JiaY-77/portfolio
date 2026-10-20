@@ -3,6 +3,15 @@
 > **在线阅读：<https://jiay-77.github.io/portfolio/>**
 > 这里不是作品清单，是一个关于「记忆」的长期项目现场：我在想什么、做了什么、怎么验证。
 
+# 🧠 Agent + Memory = Assistant
+> *Stimulating the potential of memory to build true AI assistants.*
+
+[这里放你的项目架构图或者 Demo GIF]
+
+## 🌟 About This Portfolio
+- **Palimpsest**: 基于知识图谱与向量融合的长期记忆系统...
+- **AI Workflow**: 多Agent协作与自动化代码生成...
+
 ## 这个站点有什么
 
 | 栏目 | 内容 |
