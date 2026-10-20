@@ -7,6 +7,8 @@ hide:
 
 <div class="hero" markdown>
 
+<p class="status"><span class="status-dot"></span><strong>在找机会</strong> · AI 应用开发 &amp; 解决方案</p>
+
 <div class="hero-head">
 <img class="avatar" src="assets/avatar.jpg" alt="何嘉琪">
 <div class="hero-title">
