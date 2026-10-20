@@ -10,6 +10,7 @@ copyright: 何嘉琪 · 记忆不是存储，是连续性
 theme:
   name: material
   language: zh
+  favicon: assets/favicon.png
   icon:
     logo: material/brain
     repo: fontawesome/brands/github

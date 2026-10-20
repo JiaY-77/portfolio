@@ -7,10 +7,14 @@ hide:
 
 <div class="hero" markdown>
 
-# 何嘉琪
-
+<div class="hero-head">
+<img class="avatar" src="assets/avatar.jpg" alt="何嘉琪">
+<div class="hero-title">
+<h1>何嘉琪</h1>
 <p class="tagline">🧠 Agent + Memory = Assistant</p>
 <p class="tagline-en">Stimulating the potential of memory to build true AI assistants.</p>
+</div>
+</div>
 
 我做的一件事：**给 agent 装上记得住、想得起、说得清的记忆**。
 
