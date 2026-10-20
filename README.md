@@ -6,8 +6,6 @@
 # 🧠 Agent + Memory = Assistant
 > *Stimulating the potential of memory to build true AI assistants.*
 
-[这里放你的项目架构图或者 Demo GIF]
-
 ## 🌟 About This Portfolio
 - **Palimpsest**: 基于知识图谱与向量融合的长期记忆系统...
 - **AI Workflow**: 多Agent协作与自动化代码生成...
