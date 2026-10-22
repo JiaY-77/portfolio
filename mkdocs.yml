@@ -60,6 +60,7 @@ nav:
       - 依赖升级验证与上游贡献: work/dependency-upgrade.md
       - 检索融合的权重与阈值: work/retrieval-fusion-weights.md
       - 真实业务数据交付（30 分钟）: work/data-delivery-30min.md
+      - 记忆不该只活在一个 agent 里: work/memoryhub-portability.md
   - 调研:
       - 调研总览: research/index.md
       - 主流 Agent 的记忆机制: research/agent-memory-survey.md

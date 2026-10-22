@@ -1,12 +1,12 @@
 ---
 title: 作品
-description: 六个视角的深度文档：设计、判断、方法、验证、交付、演进
+description: 七个视角的深度文档：设计、判断、方法、验证、交付、取舍、演进
 ---
 
 # 作品总览
 
 主作品是 [Palimpsest](https://github.com/JiaY-77/Palimpsest)（本地优先的开源 AI 长期记忆系统）。
-下面六篇文档从六个不同角度把它和相关方法摊开——每一篇都能经得起追问，而不是只有结论。
+下面七篇文档从七个不同角度把它和相关方法摊开——每一篇都能经得起追问，而不是只有结论。
 
 <div class="grid cards" markdown>
 
@@ -63,6 +63,15 @@ description: 六个视角的深度文档：设计、判断、方法、验证、�
     关注点：结论怎么才算可验收。
 
     [:octicons-arrow-right-24: 阅读](data-delivery-30min.md)
+
+-   :material-transfer:{ .lg .middle } __记忆不该只活在一个 agent 里__
+
+    ---
+
+    **取舍视角**：记忆导出的三种现成方案各自丢什么 → 自包含包的三段结构 → 六条「宁可慢一点」的约定 → 敏感扫描为什么分两档。
+    关注点：一份记忆要能被另一个还没被发明的系统读懂，前提是承认哪部分不可压缩。
+
+    [:octicons-arrow-right-24: 阅读](memoryhub-portability.md)
 
 </div>
 
