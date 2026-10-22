@@ -58,6 +58,7 @@ nav:
       - 记忆系统的设计与取舍: work/memory-tradeoffs.md
       - 大模型 API 真伪鉴别: work/api-authenticity.md
       - 依赖升级验证与上游贡献: work/dependency-upgrade.md
+      - 检索融合的权重与阈值: work/retrieval-fusion-weights.md
       - 真实业务数据交付（30 分钟）: work/data-delivery-30min.md
   - 调研:
       - 调研总览: research/index.md

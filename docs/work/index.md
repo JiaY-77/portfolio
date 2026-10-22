@@ -1,12 +1,12 @@
 ---
 title: 作品
-description: 五个视角的深度文档：设计、判断、方法、验证、交付
+description: 六个视角的深度文档：设计、判断、方法、验证、交付、演进
 ---
 
 # 作品总览
 
 主作品是 [Palimpsest](https://github.com/JiaY-77/Palimpsest)（本地优先的开源 AI 长期记忆系统）。
-下面五篇文档从五个不同角度把它和相关方法摊开——每一篇都能经得起追问，而不是只有结论。
+下面六篇文档从六个不同角度把它和相关方法摊开——每一篇都能经得起追问，而不是只有结论。
 
 <div class="grid cards" markdown>
 
@@ -45,6 +45,15 @@ description: 五个视角的深度文档：设计、判断、方法、验证、�
     关注点：怎么保证一次依赖升级不出事。
 
     [:octicons-arrow-right-24: 阅读](dependency-upgrade.md)
+
+-   :material-chart-timeline-variant:{ .lg .middle } __检索融合的权重，不是调出来的__
+
+    ---
+
+    **判断视角**：一个查不到的 commit hash → 为什么「把权重调大」无效 → 算出阈值 → 分档落地 → 归一化融合的未完成课题。
+    关注点：什么时候该调参，什么时候该换结构。
+
+    [:octicons-arrow-right-24: 阅读](retrieval-fusion-weights.md)
 
 -   :material-timer-outline:{ .lg .middle } __真实业务数据交付（30 分钟）__
 
