@@ -1,12 +1,12 @@
 ---
 title: 作品
-description: 七个视角的深度文档：设计、判断、方法、验证、交付、取舍、演进
+description: 八个视角的深度文档：设计、判断、方法、验证、交付、取舍、演进
 ---
 
 # 作品总览
 
 主作品是 [Palimpsest](https://github.com/JiaY-77/Palimpsest)（本地优先的开源 AI 长期记忆系统）。
-下面七篇文档从七个不同角度把它和相关方法摊开——每一篇都能经得起追问，而不是只有结论。
+下面八篇文档从八个不同角度把它和相关方法摊开——每一篇都能经得起追问，而不是只有结论。
 
 <div class="grid cards" markdown>
 
@@ -27,6 +27,15 @@ description: 七个视角的深度文档：设计、判断、方法、验证、�
     关注点：什么值得做，什么不值得做。
 
     [:octicons-arrow-right-24: 阅读](memory-tradeoffs.md)
+
+-   :material-shield-check:{ .lg .middle } __记忆置信度：从证据算分__
+
+    ---
+
+    **验证视角**：放弃「让人打分」，改用 Subjective Logic 从可观测证据算置信度；在 2969 条真实记忆、56 道评测题上实测——硬门槛、更大权重、更高 ε 三个「看起来更强」的改动全部被数据否决。
+    关注点：怎么让一个分数可复现、可审计。
+
+    [:octicons-arrow-right-24: 阅读](memory-confidence.md)
 
 -   :material-fingerprint:{ .lg .middle } __大模型 API 真伪鉴别__
 
