@@ -1,11 +1,11 @@
 site_name: 何嘉琪
-site_description: AI 应用工程师 · 记忆系统的研究与工程实践
+site_description: 何嘉琪 · AI 产品运营｜把 AI 工具真正用起来的落地经验
 site_author: 何嘉琪
 site_url: https://jiay-77.github.io/portfolio/
 repo_url: https://github.com/JiaY-77/portfolio
 repo_name: JiaY-77/portfolio
 edit_uri: edit/main/docs/
-copyright: 何嘉琪 · 记忆不是存储，是连续性
+copyright: 何嘉琪 · AI 产品运营
 
 theme:
   name: material
@@ -47,13 +47,12 @@ extra_css:
 
 nav:
   - 首页: index.md
-  - 思考:
-      - 全部思考: writing/index.md
-      - "agent + memory = assistant": writing/agent-memory-assistant.md
-      - 记忆与涌现: writing/memory-and-emergence.md
-      - 本地优先的记忆持久化: writing/local-first-memory.md
-  - 作品:
-      - 作品总览: work/index.md
+  - 经历:
+      - 经历总览: experience/index.md
+      - 汉兴联 · ITBP: experience/hanlink-itbp.md
+      - 又拍云 · 产品售前: experience/upyun-presales.md
+  - 项目:
+      - 项目总览: work/index.md
       - Palimpsest 设计说明: work/palimpsest-design.md
       - 记忆系统的设计与取舍: work/memory-tradeoffs.md
       - 记忆置信度：从证据算分: work/memory-confidence.md
@@ -71,12 +70,13 @@ nav:
       - 宿主接入 03 · 自托管对话 UI: research/host-03-selfhosted-ui.md
       - 宿主接入 04 · Dify 与国内插件市场: research/host-04-dify-plugins.md
       - 宿主接入 05 · 竞品宣传与撞词: research/host-05-competitor-wording.md
-      - 为什么我拒绝"压缩记忆": research/memory-compression-vs-selection.md
+      - 为什么我拒绝“压缩记忆”: research/memory-compression-vs-selection.md
       - AI 办公工具调研: research/ai-office-tools.md
-  - 经历:
-      - 经历总览: experience/index.md
-      - 汉兴联 · ITBP: experience/hanlink-itbp.md
-      - 又拍云 · 产品售前: experience/upyun-presales.md
+  - 思考:
+      - 全部思考: writing/index.md
+      - "agent + memory = assistant": writing/agent-memory-assistant.md
+      - 记忆与涌现: writing/memory-and-emergence.md
+      - 本地优先的记忆持久化: writing/local-first-memory.md
   - 关于: about.md
 
 plugins:
