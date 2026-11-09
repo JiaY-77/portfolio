@@ -293,3 +293,39 @@ body:has(.hm) .md-content__inner::before{display:none;}
 
 .hm-card h4::after{content:" ↗";color:#9c3b26;font-size:12px;}
 .hm-card:hover h4{color:#9c3b26;}
+
+/* 全站统一头部配色，与首页保持一致 */
+.md-header,
+.md-tabs{background:#1c1c1e;}
+/* 当前栏目标记：底部朱红细线 */
+.md-tabs__item--active .md-tabs__link{
+  box-shadow:inset 0 -2px 0 0 #9c3b26;
+  opacity:1;
+}
+
+/* 强调色统一：正文链接跟随首页朱红 */
+.md-typeset a{color:#9c3b26;}
+.md-typeset a:hover{color:#b8492f;}
+.md-typeset .md-button--primary{background:#9c3b26;border-color:#9c3b26;}
+.md-typeset .md-button--primary:hover{background:#b8492f;border-color:#b8492f;}
+
+/* 深色头部上的当前项：白字 + 朱红下划线（暗红字在深底上看不清） */
+.md-tabs__item--active .md-tabs__link{color:#fff;}
+/* 侧栏标题与当前项，收进同一套配色 */
+.md-sidebar .md-nav__title,
+.md-nav__title{color:#5a5f66 !important;}
+.md-nav__item--active>.md-nav__link{color:#9c3b26;}
+
+/* Material 主题色替成站点自己的墨黑 + 朱红 */
+[data-md-color-primary=custom]{
+  --md-primary-fg-color:#1c1c1e;
+  --md-primary-fg-color--light:#2a2a2d;
+  --md-primary-fg-color--dark:#000000;
+  --md-primary-bg-color:#ffffff;
+  --md-primary-bg-color--light:rgba(255,255,255,.7);
+}
+[data-md-color-accent=custom]{
+  --md-accent-fg-color:#9c3b26;
+  --md-accent-fg-color--transparent:rgba(156,59,38,.1);
+  --md-accent-bg-color:#ffffff;
+}
