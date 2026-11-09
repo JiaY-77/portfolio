@@ -177,3 +177,119 @@
 @media (prefers-reduced-motion: reduce) {
   .status-dot { animation: none; }
 }
+
+/* 表格撑满内容宽度，与正文左右对齐 */
+.md-typeset table:not([class]) {
+  width: 100%;
+  display: table;
+}
+
+/* 首页底部四张入口卡片排成 2x2，避免 3+1 断裂（只作用于 .four） */
+.md-typeset .grid.cards.four {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+/* ============ 首页：编辑风（只作用于含 .hm 的页面） ============ */
+body:has(.hm){background:#fbfaf7;}
+body:has(.hm) .md-header,
+body:has(.hm) .md-tabs{background:#1c1c1e;}
+body:has(.hm) .md-main__inner{max-width:none;margin:0;}
+body:has(.hm) .md-content{max-width:none;}
+body:has(.hm) .md-content__inner{margin:0;padding:0;}
+body:has(.hm) .md-content__inner::before{display:none;}
+
+.hm{
+  max-width:920px;margin:0 auto;padding:56px 28px 72px;
+  color:#1c1c1e;
+  font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+.hm a{color:#1c1c1e;text-decoration:none;}
+
+.hm-head .hm-eyebrow{
+  font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;color:#6b7178;
+}
+.hm-head h1{
+  font-family:"Songti SC","SimSun","Noto Serif SC",serif;
+  font-size:64px;line-height:1.08;font-weight:600;letter-spacing:.02em;
+  margin:22px 0 0;color:#1c1c1e;
+}
+.hm-head .hm-sub{
+  margin:20px 0 0;max-width:620px;font-size:15.5px;line-height:1.95;color:#4b5158;
+}
+.hm-head .hm-sub a{border-bottom:1px solid #9c3b26;color:#1c1c1e;}
+.hm-head .hm-tags{
+  margin:16px 0 0;font-size:13.5px;color:#6b7178;letter-spacing:.02em;
+}
+.hm-head .hm-tags span{margin:0 10px;color:#c2c4c7;}
+
+.hm-stats{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#e3e2de;
+  margin:38px 0 0;
+}
+.hm-stats>div{background:#fbfaf7;padding:18px 6px 16px;}
+.hm-stats em{
+  display:block;font-family:"Songti SC","SimSun",serif;font-size:30px;font-style:normal;
+  font-weight:600;color:#1c1c1e;line-height:1.1;
+}
+.hm-stats small{display:block;margin-top:7px;font-size:11.5px;color:#6b7178;line-height:1.5;}
+
+.hm-sec{margin-top:54px;}
+.hm-label{
+  font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#9c3b26;
+  border-bottom:1px solid #e3e2de;padding-bottom:11px;margin-bottom:2px;
+}
+.hm-row{
+  display:grid;grid-template-columns:132px 1fr;gap:30px;
+  padding:24px 0;border-bottom:1px solid #e8e7e3;
+}
+.hm-row:last-child{border-bottom:none;}
+.hm-when{font-size:12px;color:#6b7178;letter-spacing:.03em;padding-top:4px;}
+.hm-body h3{margin:0;font-size:18.5px;font-weight:600;color:#1c1c1e;letter-spacing:.01em;}
+.hm-body .hm-org{margin:7px 0 0;font-size:12.5px;color:#5a5f66;letter-spacing:.02em;}
+.hm-body p{margin:12px 0 0;font-size:14.5px;line-height:1.9;color:#4b5158;}
+.hm-body p b{color:#1c1c1e;font-weight:600;}
+
+.hm-post{list-style:none;margin:6px 0 0;padding:0;}
+.hm-post li{
+  display:flex;justify-content:space-between;align-items:baseline;gap:24px;
+  padding:15px 0;border-bottom:1px solid #e8e7e3;
+}
+.hm-post li a{font-size:15px;color:#1c1c1e;border-bottom:1px solid transparent;}
+.hm-post li a:hover{border-bottom-color:#9c3b26;}
+.hm-post li span{font-size:12.5px;color:#6b7178;text-align:right;flex:none;max-width:46%;}
+
+.hm-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:18px;}
+.hm-card{
+  display:block;padding:20px 20px 18px;border:1px solid #e3e2de;border-radius:2px;
+  background:#fff;transition:border-color .15s;
+}
+.hm-card:hover{border-color:#9c3b26;}
+.hm-card h4{margin:0;font-size:15px;font-weight:600;color:#1c1c1e;}
+.hm-card p{margin:8px 0 0;font-size:13px;line-height:1.75;color:#5a5f66;}
+
+.hm-foot{
+  margin-top:56px;padding-top:22px;border-top:1px solid #e3e2de;
+  display:flex;justify-content:space-between;font-size:12.5px;color:#8b9098;
+}
+.hm-foot a{color:#4b5158;margin-right:20px;border-bottom:1px solid #d8d7d2;}
+.hm-foot a:hover{border-bottom-color:#9c3b26;}
+
+@media (max-width:760px){
+  .hm{padding:36px 18px 56px;}
+  .hm-head h1{font-size:42px;}
+  .hm-stats{grid-template-columns:repeat(2,1fr);}
+  .hm-row{grid-template-columns:1fr;gap:8px;}
+  .hm-post li{flex-direction:column;gap:4px;}
+  .hm-post li span{text-align:left;max-width:none;}
+  .hm-cards{grid-template-columns:1fr;}
+}
+
+/* 卡片等高 */
+.hm-cards{align-items:stretch;}
+.hm-card{display:flex;flex-direction:column;}
+.hm-more{margin:18px 0 0;font-size:13px;color:#6b7178;}
+.hm-more a{color:#1c1c1e;border-bottom:1px solid #d8d7d2;margin-right:18px;}
+
+.hm-card h4::after{content:" ↗";color:#9c3b26;font-size:12px;}
+.hm-card:hover h4{color:#9c3b26;}
