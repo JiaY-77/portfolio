@@ -1,11 +1,11 @@
 site_name: 何嘉琪
-site_description: 何嘉琪 · AI 产品运营｜把 AI 工具真正用起来的落地经验
+site_description: 何嘉琪 · AI 解决方案与售前｜把业务问题做成能交付的东西
 site_author: 何嘉琪
 site_url: https://jiay-77.github.io/portfolio/
 repo_url: https://github.com/JiaY-77/portfolio
 repo_name: JiaY-77/portfolio
 edit_uri: edit/main/docs/
-copyright: 何嘉琪 · AI 产品运营
+copyright: 何嘉琪 · AI 解决方案与售前
 
 theme:
   name: material
@@ -60,6 +60,7 @@ nav:
       - 依赖升级验证与上游贡献: work/dependency-upgrade.md
       - 检索融合的权重与阈值: work/retrieval-fusion-weights.md
       - 真实业务数据交付（30 分钟）: work/data-delivery-30min.md
+      - 48 小时 FDE 实战：能追问到 SQL 的数据交付: work/fde-48h-field-delivery.md
       - 记忆不该只活在一个 agent 里: work/memoryhub-portability.md
   - 调研:
       - 调研总览: research/index.md

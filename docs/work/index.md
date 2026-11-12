@@ -1,12 +1,12 @@
 ---
 title: 作品
-description: 八个视角的深度文档：设计、判断、方法、验证、交付、取舍、演进
+description: 九个视角的深度文档：设计、判断、方法、验证、交付、取舍、演进
 ---
 
 # 作品总览
 
 主作品是 [Palimpsest](https://github.com/JiaY-77/Palimpsest)（本地优先的开源 AI 长期记忆系统）。
-下面八篇文档从八个不同角度把它和相关方法摊开——每一篇都能经得起追问，而不是只有结论。
+下面九篇文档从九个不同角度把它和相关方法摊开——每一篇都能经得起追问，而不是只有结论。
 
 <div class="grid cards" markdown>
 
@@ -72,6 +72,15 @@ description: 八个视角的深度文档：设计、判断、方法、验证、�
     关注点：结论怎么才算可验收。
 
     [:octicons-arrow-right-24: 阅读](data-delivery-30min.md)
+
+-   :material-database-check:{ .lg .middle } __48 小时 FDE 实战：能追问到 SQL 的数据交付__
+
+    ---
+
+    **交付视角**：某 AI 公司 FDE 岗位限时题——八处口径陷阱 → 三个退款率 → 四条分级证据 → 数字可追问到 SQL 的原型，以及一个刻意不接大模型的取舍。
+    关注点：限时交付里，怎么让数字站得住、让人敢用。
+
+    [:octicons-arrow-right-24: 阅读](fde-48h-field-delivery.md)
 
 -   :material-transfer:{ .lg .middle } __记忆不该只活在一个 agent 里__
 
