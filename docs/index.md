@@ -11,7 +11,7 @@ hide:
   <div class="hm-eyebrow">杭州 · 计算机科学与技术 · 2026</div>
   <h1>何嘉琪</h1>
   <p class="hm-sub">白天在一家做重卡与工程机械海外代理的公司做 ITBP，把业务方说不清的事翻译成系统能执行的需求；业余写一个叫 <a href="https://github.com/JiaY-77/Palimpsest">Palimpsest</a> 的开源记忆系统。</p>
-  <p class="hm-tags">AI 产品运营<span>/</span>AI 解决方案 · 售前<span>/</span>产品文档与培训</p>
+  <p class="hm-tags">AI 解决方案 · 售前<span>/</span>现场交付（FDE）<span>/</span>产品文档与培训</p>
 </header>
 
 <div class="hm-stats">
@@ -48,7 +48,7 @@ hide:
     <div class="hm-body">
       <h3>把一件事从 0 做到能交出去</h3>
       <p class="hm-org">Palimpsest · 本地优先的 AI 长期记忆系统 · 开源</p>
-      <p>从 0 定义它要解决的问题和能力边界，定下三路混合检索的技术方向。自建 148 题评测集，<b>记忆检索 Recall@5 从 0.263 提到 0.684</b>；现在有 1538 项自动化测试、31 个正式版本。代码是 AI 编程助手按需求实现的，我负责设计、审阅和验收。</p>
+      <p>从 0 定义它要解决的问题和能力边界，定下三路混合检索的技术方向。自建 148 题评测集（含负样本），<b>记忆层 Recall@5 从 0.263 提到 0.684</b>；现在有 1682 项自动化测试、34 个正式版本。代码是 AI 编程助手按需求实现的，我负责设计、审阅和验收。</p>
     </div>
   </div>
 </section>
